@@ -1,0 +1,55 @@
+.stand {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 80px;
+  &_img {
+    padding-top: 70px;
+  }
+  &_text {
+    h1 {
+      font-family: Display-Bold;
+      font-size: 67px;
+      font-weight: 700;
+      color: #232340;
+    }
+    p {
+      font-family: Display-Regular;
+      font-size: 18px;
+      font-weight: 400;
+
+      color: #606060;
+      padding-bottom: 30px;
+    }
+    button {
+      padding: 20px 37px;
+      background-color: #5468e7;
+      border: 2px solid #5468e7;
+      border-radius: 5px;
+      font-family: Display-Bold;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: center;
+      color: #fff;
+    }
+    button:hover {
+      color: #5468e7;
+      background-color: #fff;
+      transition: 0.8s;
+      cursor: pointer;
+    }
+    &_scroll {
+      margin-top: 50px;
+      align-items: center;
+      display: flex;
+      gap: 10px;
+      p {
+        font-family: Display-Medium;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        color: #8b8b8b;
+      }
+    }
+  }
+}

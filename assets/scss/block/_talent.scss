@@ -1,0 +1,53 @@
+.talent {
+  background-image: url(../images/Group\ 159.png);
+  width: 1232px;
+  height: 720px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 120px;
+  .d {
+    display: flex;
+    justify-content: end;
+    padding-right: 264px;
+    padding-top: 134px;
+  }
+  &_text {
+    p {
+      font-family: Display-Medium;
+      font-size: 18px;
+      font-weight: 500;
+      text-align: left;
+      color: #ffffff;
+    }
+    h1 {
+      font-family: Display-Bold;
+      font-size: 64px;
+      font-weight: 700;
+      text-align: left;
+      color: #ffffff;
+    }
+    button {
+      padding: 20px 56px;
+      background-color: #ffffff;
+      font-family: Display-Bold;
+      border: 2px solid #ffffff;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: center;
+      color: #5468e7;
+      border-radius: 5px;
+    }
+    button:hover {
+      color: #ffffff;
+      background-color: #5468e7;
+      transition: 0.8s;
+      cursor: pointer;
+    }
+  }
+}
+.res-talent {
+  background-color: #f9f6fa;
+  padding-bottom: 158px;
+}

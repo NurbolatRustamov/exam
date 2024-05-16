@@ -1,0 +1,50 @@
+.curated {
+  background-color: #f9f6fa;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 188px;
+  gap: 141px;
+  &_text {
+    h1 {
+      font-family: Display-Bold;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: -0.5px;
+      text-align: left;
+      color: #000000;
+    }
+    h2 {
+      font-family: Display-Medium;
+      font-size: 200px;
+      font-weight: 500;
+      color: #5468e7;
+    }
+    p {
+      font-family: Display-Bold;
+      font-size: 24px;
+      font-weight: 700;
+      color: #000000;
+    }
+    .boxing {
+      display: flex;
+      gap: 12px;
+      .texting {
+        font-family: Display-Medium;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        color: #8b8b8b;
+      }
+      .weing {
+        font-family: Display-Medium;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: left;
+        color: #232340;
+      }
+    }
+  }
+}

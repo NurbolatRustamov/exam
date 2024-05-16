@@ -1,0 +1,196 @@
+.service {
+  background-color: #f9f6fa;
+  padding-bottom: 128px;
+  &_img {
+    display: flex;
+    padding-left: 135px;
+    padding-top: 181px;
+    &_one {
+      h3 {
+        padding-bottom: 32px;
+        font-family: Display-Bold;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: -0.4000000059604645px;
+        text-align: left;
+        color: #000000;
+      }
+      p {
+        font-family: Display-Regular;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+        color: #606060;
+      }
+      button {
+        margin-bottom: 24px;
+        padding: 11px 23px;
+        border-radius: 19px;
+        background-color: #908cff;
+        border: 1px solid #908cff;
+        font-family: Display-Regular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+        color: #ffffff;
+      }
+      button:hover {
+        color: #908cff;
+        background-color: #ffffff;
+        transition: 0.8s;
+        cursor: pointer;
+      }
+    }
+  }
+  &_bento {
+    display: flex;
+    justify-content: space-around;
+    &_two {
+      p {
+        padding-left: 315px;
+        text-align: center;
+        font-family: Display-Bold;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: -0.4000000059604645px;
+        text-align: left;
+        color: #232340;
+      }
+      h6 {
+        padding-left: 315px;
+        font-family: Display-Regular;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        color: #606060;
+      }
+    }
+    &_one {
+      padding-top: 500px;
+      p {
+        padding-bottom: 30px;
+        padding-left: 87px;
+        text-align: center;
+        font-family: Display-Bold;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: -0.4000000059604645px;
+        text-align: left;
+        color: #232340;
+      }
+      h6 {
+        padding-top: 30px;
+        padding-left: 87px;
+        font-family: Display-Regular;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        color: #606060;
+      }
+    }
+  }
+  &_man {
+    display: flex;
+    justify-content: space-around;
+    &_two {
+      p {
+        padding-left: 121px;
+        padding-bottom: 30px;
+        text-align: center;
+        font-family: Display-Bold;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: -0.4000000059604645px;
+        text-align: left;
+        color: #232340;
+      }
+      h6 {
+        padding-top: 30px;
+        padding-left: 121px;
+        font-family: Display-Regular;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        color: #606060;
+      }
+    }
+    &_one {
+      padding-top: 500px;
+      p {
+        padding-bottom: 30px;
+        padding-left: 15px;
+        text-align: center;
+        font-family: Display-Bold;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: -0.4000000059604645px;
+        text-align: left;
+        color: #232340;
+      }
+      h6 {
+        padding-top: 30px;
+        padding-left: 15px;
+        font-family: Display-Regular;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        color: #606060;
+      }
+    }
+  }
+  &_text {
+    display: flex;
+    justify-content: end;
+    padding-right: 135px;
+    gap: 136px;
+    align-items: center;
+    &_btn {
+      button {
+        padding: 20px 37px;
+        background-color: #5468e7;
+        border: 2px solid #5468e7;
+        border-radius: 5px;
+        font-family: Display-Bold;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        color: #fff;
+      }
+      button:hover {
+        color: #5468e7;
+        background-color: #fff;
+        transition: 0.8s;
+        cursor: pointer;
+      }
+    }
+    &_one {
+      p {
+        font-family: Display-Medium;
+        font-size: 18px;
+        font-weight: 600;
+        color: #5468e7;
+      }
+      h1 {
+        font-family: Display-Bold;
+        font-size: 84px;
+        font-weight: 700;
+        line-height: 100.24px;
+        letter-spacing: -1px;
+        text-align: left;
+        color: #232340;
+      }
+      h6 {
+        font-family: Display-Regular;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 32px;
+        text-align: left;
+        color: #606060;
+      }
+    }
+  }
+}

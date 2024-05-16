@@ -1,0 +1,130 @@
+.footer {
+  &_inform {
+    padding-top: 128px;
+    img {
+      display: flex;
+      margin: 0 auto;
+      padding-bottom: 48px;
+    }
+    p {
+      font-family: Display-Regular;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 32px;
+      text-align: center;
+      color: #606060;
+      padding-bottom: 48px;
+    }
+    ul {
+      padding-bottom: 48px;
+      display: flex;
+      justify-content: center;
+      gap: 64px;
+      li {
+        font-family: Display-Medium;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+        color: #8b8b8b;
+      }
+      li:hover {
+        color: #5468e7;
+        transition: 0.8s;
+        cursor: pointer;
+      }
+    }
+  }
+  hr {
+    width: 1170px;
+    height: 1px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #d8d8d8;
+    margin-bottom: 32px;
+  }
+  &_bg {
+    background-image: url(../images/Group\ 160.png);
+    width: 1296px;
+    height: 1024px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    .hello {
+      font-family: Display-Medium;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 24px;
+      text-align: center;
+      color: #ffffff;
+      padding-bottom: 40px;
+    }
+    img {
+      display: flex;
+      margin: 0 auto;
+      padding-top: 128px;
+      padding-bottom: 40px;
+    }
+    h5 {
+      padding-bottom: 297px;
+      font-family: Display-Bold;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: -0.5px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .father {
+      display: flex;
+      justify-content: center;
+      gap: 236px;
+      .lets {
+        font-family: Display-Bold;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 72px;
+        letter-spacing: -0.5px;
+        text-align: left;
+        color: #ffffff;
+      }
+      .invest {
+        padding-top: 132px;
+        font-family: Display-Bold;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: -0.5px;
+        text-align: left;
+        color: #ffffff;
+      }
+    }
+  }
+  &_end {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 32px;
+    p {
+      font-family: Display-Medium;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 18px;
+      text-align: left;
+      color: #adadad;
+    }
+    ul {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+    }
+    li {
+      font-family: Display-Medium;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 18px;
+      text-align: left;
+      color: #5468e7;
+    }
+  }
+}

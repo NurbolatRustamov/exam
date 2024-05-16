@@ -1,0 +1,192 @@
+.make {
+  background-color: #f9f6fa;
+  padding-bottom: 209px;
+  &_text {
+    padding-top: 128px;
+    align-items: center;
+    margin-right: 135px;
+    display: flex;
+    justify-content: end;
+    gap: 158px;
+    &_two {
+      display: flex;
+      gap: 12px;
+      .arrows {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        background-color: transparent;
+
+        i {
+          display: flex;
+          justify-content: center;
+          padding-top: 22px;
+          font-size: 20px;
+        }
+      }
+      .arrows:hover {
+        background-color: #5468e7;
+        transition: 0.8s;
+        cursor: pointer;
+      }
+      .arrows:hover i {
+        color: #fff;
+        transition: 0.8s;
+      }
+    }
+    &_one {
+      .boxs {
+        display: flex;
+        gap: 12px;
+        .texts {
+          font-family: Display-Medium;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 24px;
+          text-align: left;
+          color: #5468e7;
+        }
+        .wes {
+          font-family: Display-Medium;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 24px;
+          text-align: left;
+          color: #5468e7;
+        }
+      }
+      h1 {
+        font-family: Display-Bold;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 72px;
+        color: #232340;
+      }
+    }
+  }
+  .body {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    &_one {
+      border-radius: 17px;
+      background-color: #fff;
+      width: 293px;
+      height: 480px;
+      img {
+        padding-top: 140px;
+        padding-bottom: 40px;
+        display: flex;
+        margin: 0 auto;
+      }
+      p {
+        font-family: Display-Bold;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: center;
+        color: #5468e7;
+      }
+    }
+    &_one:hover {
+      background-color: #5468e7;
+      transition: 0.8s;
+      cursor: pointer;
+    }
+    &_one:hover p {
+      color: #fff;
+      transition: 0.8s;
+    }
+    &_two {
+      border-radius: 17px;
+      background-color: #fff;
+      width: 293px;
+      height: 480px;
+      img {
+        padding-top: 140px;
+        padding-bottom: 40px;
+        display: flex;
+        margin: 0 auto;
+      }
+      p {
+        font-family: Display-Bold;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: center;
+        color: #5468e7;
+      }
+    }
+    &_two:hover {
+      background-color: #5468e7;
+      transition: 0.8s;
+      cursor: pointer;
+    }
+    &_two:hover p {
+      color: #fff;
+      transition: 0.8s;
+    }
+    &_three {
+      border-radius: 17px;
+      background-color: #fff;
+      width: 293px;
+      height: 480px;
+      img {
+        padding-top: 140px;
+        padding-bottom: 40px;
+        display: flex;
+        margin: 0 auto;
+      }
+      p {
+        font-family: Display-Bold;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: center;
+        color: #5468e7;
+      }
+    }
+    &_three:hover {
+      background-color: #5468e7;
+      transition: 0.8s;
+      cursor: pointer;
+    }
+    &_three:hover p {
+      color: #fff;
+      transition: 0.8s;
+    }
+    &_four {
+      border-radius: 17px;
+      background-color: #fff;
+      width: 293px;
+      height: 480px;
+      img {
+        padding-top: 140px;
+        padding-bottom: 40px;
+        display: flex;
+        margin: 0 auto;
+      }
+      p {
+        font-family: Display-Bold;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: center;
+        color: #5468e7;
+      }
+    }
+    &_four:hover {
+      background-color: #5468e7;
+      transition: 0.8s;
+      cursor: pointer;
+    }
+    &_four:hover p {
+      color: #fff;
+      transition: 0.8s;
+    }
+  }
+}
